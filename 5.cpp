@@ -13,7 +13,7 @@ int main(){
     scanf("%s", &player_1);
 
     printf("Player 2: ");
-    scanf("%s", &player_1);
+    scanf("%s", &player_2);
 
     for(int i = 0; player_1[i] != '\0'; i++){
         if(isalpha(player_1[i])){
